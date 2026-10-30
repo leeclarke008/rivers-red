@@ -1,0 +1,103 @@
+html {
+    background-color: dimgrey;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+    padding: 0 0 10px 0;
+    background-color: black;
+    border-bottom: 1px solid maroon;
+    box-shadow: 0 0 40px red;
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.logo-hero {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    max-width: 75%;
+    margin: 0 auto;
+    min-height: 800px;
+    position: relative;
+    top: 118.88px;
+    border-left: 1px solid maroon;
+    border-right: 1px solid maroon;
+    box-shadow: 0 0 40px maroon;
+
+    color: antiquewhite;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    top: 118.88px;
+    box-shadow: 0 0 40px maroon;
+}
+
+footer h3,
+footer p {
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.footer-socials-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-socials-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.social-button {
+    min-width: 150px;
+}
+
+.bottomnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.bottomnav a {
+    color: white;
+}
