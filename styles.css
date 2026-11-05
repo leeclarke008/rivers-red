@@ -1,22 +1,23 @@
 html {
-    background-color: dimgrey;
+    background-color: black;
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
-.hero {
+header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    min-height: 100px;
+    min-height: 200px;
     width: 100%;
     padding: 0 0 10px 0;
-    background-color: black;
+    background-color: rgba(0,0,0,0.5);
     position: fixed;
     z-index: 1;
+    box-shadow: 0 0 40px maroon;
 }
 
 .topnav {
@@ -35,23 +36,26 @@ body {
     color: maroon;
 }
 
-.logo-hero {
+.logo-header {
     color: white;
+    font-size: 50px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    max-width: 75%;
+    width: 75%;
     padding: 0px 70px 40px 70px;
     margin: 0 auto;
     min-height: 800px;
-    position: relative;
-    top: 118.88px;
-    border-left: 1px solid maroon;
-    border-right: 1px solid maroon;
-    box-shadow: 0 0 40px maroon;
+    /*position: relative;
+    top: 118.88px;*/
 
     color: antiquewhite;
 }
@@ -167,10 +171,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    position: relative;
-    top: 118.88px;
+    /*background-color: black;*/
+    /*position: relative;
+    top: 118.88px;*/
     box-shadow: 0 0 40px maroon;
+    min-height: 200px;
 }
 
 footer h3,
@@ -178,25 +183,34 @@ footer p {
     color: white;
 }
 
-.footer-socials {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer-content {
     width: 70%;
 }
 
-.footer-socials-left {
+.footer-top {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.footer-socials-right {
+.footer-socials {
     display: flex;
-    align-items: flex-end;
+    align-content: flex-end;
 }
 
 .social-button {
     min-width: 150px;
+    height: auto;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
 }
 
 .bottomnav {
